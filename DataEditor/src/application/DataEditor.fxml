@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <Label alignment="TOP_LEFT" nodeOrientation="LEFT_TO_RIGHT" text="Data Editor" BorderPane.alignment="TOP_LEFT">
          <font>
@@ -27,7 +27,7 @@
       </TableView>
    </center>
    <bottom>
-      <HBox prefHeight="30.0" prefWidth="0.0" BorderPane.alignment="CENTER">
+      <HBox alignment="CENTER" minWidth="400.0" prefHeight="30.0" prefWidth="0.0" BorderPane.alignment="CENTER">
          <children>
             <TextField fx:id="nameLabel" promptText="Name" />
             <TextField fx:id="quantityLabel" promptText="Quantity" />
